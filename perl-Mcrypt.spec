@@ -54,6 +54,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog README
 %{perl_vendorarch}/Mcrypt.pm
 %dir %{perl_vendorarch}/auto/Mcrypt
-%{perl_vendorarch}/auto/Mcrypt/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Mcrypt/*.so
 %{_mandir}/man3/*
