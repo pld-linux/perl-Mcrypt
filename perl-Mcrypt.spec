@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Mcrypt
 Summary:	Mcrypt - Perl extension for the Mcrypt cryptography library
 Summary(pl.UTF-8):	Mcrypt - moduł Perla do obsługi biblioteki kryptograficznej Mcrypt
